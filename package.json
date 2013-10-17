@@ -1,0 +1,12 @@
+{
+  "name": "path-join",
+  "version": "0.0.1",
+  "repo": "stephenmathieson/path-join.c",
+  "description": "Join a path like node's `require('path').join`",
+  "keywords": [],
+  "license": "MIT",
+  "src": [
+    "src/path-join.c",
+    "src/path-join.h"
+  ]
+}
