@@ -2,11 +2,22 @@
   "name": "path-join",
   "version": "0.0.1",
   "repo": "stephenmathieson/path-join.c",
-  "description": "Join a path like node's `require('path').join`",
-  "keywords": [],
+  "description": "Join a path",
+  "keywords": [
+    "path",
+    "join",
+    "directory",
+    "file"
+  ],
   "license": "MIT",
   "src": [
     "src/path-join.c",
-    "src/path-join.h"
+    "src/path-join.h",
+    "src/str-copy.c",
+    "src/str-copy.h",
+    "src/str-ends-with.c",
+    "src/str-ends-with.h",
+    "src/str-starts-with.c",
+    "src/str-starts-with.h"
   ]
 }
