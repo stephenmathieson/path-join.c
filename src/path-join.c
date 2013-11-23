@@ -26,6 +26,7 @@
 char *path_join(char *dir, char *file) {
   int size = strlen(dir) + strlen(file) + 2;
   char *buf = malloc(size * sizeof(char));
+  if (NULL == buf) return NULL;
 
   strcpy(buf, dir);
 
