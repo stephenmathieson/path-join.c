@@ -38,6 +38,7 @@ char *path_join(char *dir, char *file) {
   // remove the sep if necessary
   if (str_starts_with(file, SEPERATOR)) {
     char *filecopy = str_copy(file);
+    if (NULL == filecopy) return NULL;
     filecopy++;
     strcat(buf, filecopy);
   } else {
