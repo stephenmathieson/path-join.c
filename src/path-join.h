@@ -10,6 +10,6 @@
 #ifndef PATH_JOIN
 #define PATH_JOIN
 
-char *path_join(char *dir, char *file);
+char *path_join(const char *dir, const char *file);
 
 #endif
