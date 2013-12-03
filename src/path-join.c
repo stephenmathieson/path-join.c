@@ -30,12 +30,12 @@ char *path_join(char *dir, char *file) {
   strcpy(buf, dir);
 
   // add the sep if necessary
-  if (!str_ends_with(dir, SEPERATOR)) {
-    strcat(buf, SEPERATOR);
+  if (!str_ends_with(dir, PATH_JOIN_SEPERATOR)) {
+    strcat(buf, PATH_JOIN_SEPERATOR);
   }
 
   // remove the sep if necessary
-  if (str_starts_with(file, SEPERATOR)) {
+  if (str_starts_with(file, PATH_JOIN_SEPERATOR)) {
     char *filecopy = strdup(file);
     filecopy++;
     strcat(buf, filecopy);
