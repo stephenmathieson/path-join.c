@@ -10,7 +10,7 @@
 #include <string.h>
 #include "str-starts-with.h"
 
-bool str_starts_with(char *str, char *start) {
+bool str_starts_with(const char *str, const char *start) {
   int str_len = strlen(str);
   int start_len = strlen(start);
 

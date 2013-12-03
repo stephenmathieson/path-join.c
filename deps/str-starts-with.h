@@ -12,6 +12,6 @@
 
 #include <stdbool.h>
 
-bool str_starts_with(char *str, char *start);
+bool str_starts_with(const char *str, const char *start);
 
 #endif
