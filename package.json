@@ -13,11 +13,13 @@
   "src": [
     "src/path-join.c",
     "src/path-join.h",
-    "src/str-copy.c",
-    "src/str-copy.h",
-    "src/str-ends-with.c",
-    "src/str-ends-with.h",
-    "src/str-starts-with.c",
-    "src/str-starts-with.h"
-  ]
+    "deps/str-ends-with.c",
+    "deps/str-ends-with.h",
+    "deps/str-starts-with.c",
+    "deps/str-starts-with.h"
+  ],
+  "dependencies": {
+    "stephenmathieson/str-starts-with.c": "master",
+    "stephenmathieson/str-ends-with.c": "master"
+  }
 }

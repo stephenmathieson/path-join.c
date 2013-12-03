@@ -8,7 +8,6 @@
 
 #include <string.h>
 #include <stdlib.h>
-#include "str-copy.h"
 #include "str-ends-with.h"
 #include "str-starts-with.h"
 #include "path-join.h"
@@ -37,8 +36,7 @@ char *path_join(char *dir, char *file) {
 
   // remove the sep if necessary
   if (str_starts_with(file, SEPERATOR)) {
-    char *filecopy = str_copy(file);
-    if (NULL == filecopy) return NULL;
+    char *filecopy = strdup(file);
     filecopy++;
     strcat(buf, filecopy);
   } else {
