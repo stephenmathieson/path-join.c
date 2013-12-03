@@ -11,7 +11,7 @@
 
 ## API
 
-### `char *path_join(char *dir, char *file)`
+### `char *path_join(const char *dir, const char *file)`
 
   Join `dir` and `file`, seperating with `/` (or `\\` on Windows)
 
