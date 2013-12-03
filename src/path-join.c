@@ -13,9 +13,9 @@
 #include "path-join.h"
 
 #ifdef _WIN32
-#define SEPERATOR   "\\"
+#define PATH_JOIN_SEPERATOR   "\\"
 #else
-#define SEPERATOR   "/"
+#define PATH_JOIN_SEPERATOR   "/"
 #endif
 
 /*
