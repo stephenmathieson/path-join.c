@@ -16,10 +16,13 @@
     "deps/str-ends-with.c",
     "deps/str-ends-with.h",
     "deps/str-starts-with.c",
-    "deps/str-starts-with.h"
+    "deps/str-starts-with.h",
+    "deps/str-copy.c",
+    "deps/str-copy.h"
   ],
   "dependencies": {
     "stephenmathieson/str-starts-with.c": "master",
-    "stephenmathieson/str-ends-with.c": "master"
+    "stephenmathieson/str-ends-with.c": "master",
+    "stephenmathieson/str-copy.c": "0.0.3"
   }
 }

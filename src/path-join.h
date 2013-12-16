@@ -7,9 +7,9 @@
 //
 
 
-#ifndef PATH_JOIN
-#define PATH_JOIN
+#ifndef PATH_JOIN_H
+#define PATH_JOIN_H 1
 
-char *path_join(const char *dir, const char *file);
+char *path_join(const char *, const char *);
 
 #endif
