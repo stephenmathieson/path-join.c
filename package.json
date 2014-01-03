@@ -12,17 +12,11 @@
   "license": "MIT",
   "src": [
     "src/path-join.c",
-    "src/path-join.h",
-    "deps/str-ends-with.c",
-    "deps/str-ends-with.h",
-    "deps/str-starts-with.c",
-    "deps/str-starts-with.h",
-    "deps/str-copy.c",
-    "deps/str-copy.h"
+    "src/path-join.h"
   ],
   "dependencies": {
-    "stephenmathieson/str-starts-with.c": "master",
-    "stephenmathieson/str-ends-with.c": "master",
-    "stephenmathieson/str-copy.c": "0.0.3"
+    "stephenmathieson/str-starts-with.c": "*",
+    "stephenmathieson/str-ends-with.c": "*",
+    "stephenmathieson/str-copy.c": "*"
   }
 }

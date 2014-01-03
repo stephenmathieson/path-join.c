@@ -3,7 +3,8 @@
 #include <assert.h>
 #include "path-join.h"
 
-int main(int argc, char **argv) {
+int
+main(void) {
   assert(0 == strcmp("/foo/bar/baz", path_join("/foo/bar", "baz")));
   assert(0 == strcmp("/foo/bar/baz", path_join("/foo/bar/", "baz")));
   assert(0 == strcmp("/foo/bar/baz", path_join("/foo/bar", "/baz")));
