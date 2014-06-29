@@ -1,6 +1,6 @@
 {
   "name": "path-join",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repo": "stephenmathieson/path-join.c",
   "description": "Join a path",
   "keywords": [

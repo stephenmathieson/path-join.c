@@ -1,4 +1,9 @@
 
+0.0.6 / 2014-06-29
+==================
+
+ * package.json: Replace str-copy.c with clibs/strdup
+
 0.0.5 / 2014-02-21 
 ==================
 
